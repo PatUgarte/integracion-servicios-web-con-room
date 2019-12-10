@@ -1,6 +1,6 @@
 package com.digitalhouse.integracionservicioswebconroom_monroe.controller;
 
-import com.digitalhouse.integracionservicioswebconroom_monroe.dao.ProductoDao;
+import com.digitalhouse.integracionservicioswebconroom_monroe.dao.retrofit.ProductoDao;
 import com.digitalhouse.integracionservicioswebconroom_monroe.model.ProductoContainer;
 import com.digitalhouse.integracionservicioswebconroom_monroe.util.ResultListener;
 

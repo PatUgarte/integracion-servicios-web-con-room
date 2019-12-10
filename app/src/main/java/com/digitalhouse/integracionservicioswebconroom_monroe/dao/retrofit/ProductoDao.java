@@ -1,4 +1,4 @@
-package com.digitalhouse.integracionservicioswebconroom_monroe.dao;
+package com.digitalhouse.integracionservicioswebconroom_monroe.dao.retrofit;
 
 import com.digitalhouse.integracionservicioswebconroom_monroe.model.ProductoContainer;
 import com.digitalhouse.integracionservicioswebconroom_monroe.util.ProductoService;
