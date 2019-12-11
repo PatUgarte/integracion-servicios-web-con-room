@@ -11,7 +11,8 @@ import java.io.Serializable;
 public class Producto implements Serializable {
 
     @PrimaryKey(autoGenerate = true)
-    private Integer id;
+    @ColumnInfo(name="id")
+    private Integer idProducto;
 
     @ColumnInfo
     private String title;
@@ -52,5 +53,13 @@ public class Producto implements Serializable {
 
     public void setPrice(String price) {
         this.price = price;
+    }
+
+    public Integer getIdProducto() {
+        return idProducto;
+    }
+
+    public void setIdProducto(Integer idProducto) {
+        this.idProducto = idProducto;
     }
 }

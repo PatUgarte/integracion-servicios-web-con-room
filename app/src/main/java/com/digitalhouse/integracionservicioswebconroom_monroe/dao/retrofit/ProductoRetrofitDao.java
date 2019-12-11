@@ -10,14 +10,14 @@ import retrofit2.Response;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
-public class ProductoDao {
+public class ProductoRetrofitDao {
 
 
     private ProductoService productoService;
     private Retrofit retrofit;
     public static final String BASE_URL = "https://api.mercadolibre.com/sites/MLA/";
 
-    public ProductoDao() {
+    public ProductoRetrofitDao() {
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl(BASE_URL)
                 .addConverterFactory(GsonConverterFactory.create())

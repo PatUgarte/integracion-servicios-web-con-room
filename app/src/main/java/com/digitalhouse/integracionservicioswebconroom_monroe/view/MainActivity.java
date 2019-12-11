@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         miRecyclerView.setAdapter(miRecyclerViewAdapter);
         miRecyclerView.setHasFixedSize(true);
 
-        ProductoController productoController = new ProductoController();
+        ProductoController productoController = new ProductoController(MainActivity.this);
 
         productoController.obtenerResultadoController(new ResultListener<ProductoContainer>() {
             @Override
